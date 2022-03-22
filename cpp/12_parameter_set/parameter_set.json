@@ -1,0 +1,96 @@
+{
+  "acquisition": {
+    "imageAcquisitionType": "LiveImage",
+    "acquisitionMode": "Continuous",
+    "metaDataExportEnabled": false,
+    "numberOfProfilesToCapture": 1000,
+    "packetSize": 100,
+    "packetTimeoutInMS": 500
+  },
+  "roi": {
+    "originX": 0,
+    "originY": 0,
+    "width": 1920,
+    "height": 1200
+  },
+  "exposure": {
+    "numberOfExposureTimes": 1,
+    "exposureTimesUS": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "multiExposureMerge": {
+      "mode": "Merge",
+      "optimalValue": {
+        "valueType": "LaserLineThickness",
+        "value": 5
+      }
+    },
+    "gain": {
+      "enabled": false,
+      "value": 0
+    }
+  },
+  "laser": {
+    "powerEnabled": true,
+    "brightness": 100,
+    "mode": "Pulsed"
+  },
+  "startTrigger": {
+    "source": "None",
+    "enabled": false,
+    "edgeMode": "RisingOrForward",
+    "readyForAcquisitionStatus": {
+      "channel": 0,
+      "enabled": false
+    }
+  },
+  "dataTrigger": {
+    "mode": "FreeRunning",
+    "internalTriggerParameters": {
+      "frequency": 500
+    },
+    "externalTriggerParameters": {
+      "source": "Input1",
+      "divider": 1,
+      "delay": 0,
+      "edgeModeOrDirection": "RisingOrForward"
+    }
+  },
+  "smartXpress": {
+    "enabled": false,
+    "configurationFilename": ""
+  },
+  "smartXtract": {
+    "enabled": false,
+    "presetFilename": "",
+    "dataGeneration3DMode": "Default",
+    "algorithmType": "SingleProfileAccuracy"
+  },
+  "prefilter": {
+    "laserLineThickness": {
+      "min": 3,
+      "max": 63
+    }
+  },
+  "reflectionFilter": {
+    "enabled": false,
+    "algorithm": 0,
+    "preset": 0
+  },
+  "zMap": {
+    "lateralResolution": 0.070000,
+    "verticalResolution": 0.005000
+  },
+  "tiltCorrection": {
+    "pitch": 0.000000,
+    "yaw": 0.000000
+  },
+  "transportResolution": 0.100000
+}
