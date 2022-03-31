@@ -7,7 +7,6 @@ find_package( SmartRaySdk REQUIRED )
 add_executable( ${PROJECT_NAME} "05_point_cloud.c" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
-target_compile_definitions( ${PROJECT_NAME} PUBLIC -D_CRT_SECURE_NO_WARNINGS )
 
 # create binaries into separate _deploy directory
 set_target_properties( ${PROJECT_NAME} PROPERTIES
