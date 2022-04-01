@@ -4,6 +4,7 @@
 
 #pragma once
 
+#include <cstring>
 #include <vector>
 
 #include <sr_api/sr_api.h>
