@@ -4,7 +4,7 @@ project( "sr_api_c_sample_09_multiexposure" LANGUAGES C )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "09_multiexposure.c" )
+add_executable( ${PROJECT_NAME} "09_multiexposure.c" "../util/util.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

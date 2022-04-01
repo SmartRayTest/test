@@ -4,7 +4,7 @@ project( "sr_api_c_sample_06_zil" LANGUAGES C )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "06_zil.c" )
+add_executable( ${PROJECT_NAME} "06_zil.c" "../util/util.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

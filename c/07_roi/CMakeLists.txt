@@ -4,7 +4,7 @@ project( "sr_api_c_sample_07_roi" LANGUAGES C )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "07_roi.c" )
+add_executable( ${PROJECT_NAME} "07_roi.c" "../util/util.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

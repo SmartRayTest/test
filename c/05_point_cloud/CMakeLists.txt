@@ -4,7 +4,7 @@ project( "sr_api_c_sample_05_point_cloud" LANGUAGES C )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "05_point_cloud.c" )
+add_executable( ${PROJECT_NAME} "05_point_cloud.c" "../util/util.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

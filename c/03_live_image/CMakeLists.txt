@@ -4,7 +4,7 @@ project( "sr_api_c_sample_03_live_image" LANGUAGES C )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "03_live_image.c" )
+add_executable( ${PROJECT_NAME} "03_live_image.c" "../util/util.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

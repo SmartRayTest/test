@@ -4,7 +4,7 @@ project( "sr_api_cpp_sample_02_connect_sensor" LANGUAGES CXX )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "02_connect_sensor.cpp" )
+add_executable( ${PROJECT_NAME} "02_connect_sensor.cpp" "../cpp_wrapper/sr_sensor.h" "../cpp_wrapper/sr_sensor_manager.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

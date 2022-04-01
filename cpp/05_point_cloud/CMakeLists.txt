@@ -4,7 +4,7 @@ project( "sr_api_cpp_sample_05_point_cloud" LANGUAGES CXX )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "05_point_cloud.cpp" )
+add_executable( ${PROJECT_NAME} "05_point_cloud.cpp" "../cpp_wrapper/sr_sensor.h" "../cpp_wrapper/sr_sensor_manager.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

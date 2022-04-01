@@ -4,7 +4,7 @@ project( "sr_api_c_sample_13_metadata" LANGUAGES C )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "13_metadata.c" )
+add_executable( ${PROJECT_NAME} "13_metadata.c" "../util/util.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 

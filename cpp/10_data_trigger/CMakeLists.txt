@@ -4,7 +4,7 @@ project( "sr_api_cpp_sample_10_data_trigger" LANGUAGES CXX )
 
 find_package( SmartRaySdk REQUIRED )
 
-add_executable( ${PROJECT_NAME} "10_data_trigger.cpp" )
+add_executable( ${PROJECT_NAME} "10_data_trigger.cpp" "../cpp_wrapper/sr_sensor.h" "../cpp_wrapper/sr_sensor_manager.h" )
 
 target_link_libraries( ${PROJECT_NAME} PUBLIC SmartRaySdk  )
 
