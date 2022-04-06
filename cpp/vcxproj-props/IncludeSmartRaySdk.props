@@ -5,6 +5,10 @@
   <PropertyGroup>
     <IncludePath>$(SmartRaySDK_DIR)/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
-  <ItemDefinitionGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
