@@ -3,12 +3,11 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <_PropertySheetDisplayName>AddSmartRayLib64</_PropertySheetDisplayName>
+    <LibraryPath>$(SmartRaySDK_DIR)/lib/x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>SmartRay_api-x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SmartRaySDK_DIR)/lib/x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SmartRay_api-x32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
