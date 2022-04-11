@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2798352c-9599-4da3-96e4-8794633061e0}</ProjectGuid>
+    <ProjectGuid>{4B48BD1F-677C-39C0-9B30-9142D18C987C}</ProjectGuid>
     <RootNamespace>02_connect_sensor</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>

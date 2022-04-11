@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2798352c-9599-4da3-96e4-8794633061e0}</ProjectGuid>
+    <ProjectGuid>{DCA5858D-18C9-3EFC-BD96-CFF07624C444}</ProjectGuid>
     <RootNamespace>08_exposure_time</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>

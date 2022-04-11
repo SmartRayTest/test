@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2798352c-9599-4da3-96e4-8794633061e0}</ProjectGuid>
+    <ProjectGuid>{4575E022-67AA-3731-85B7-B88D34BA45E1}</ProjectGuid>
     <RootNamespace>11_start_trigger</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_init_api", "01_init_api\01_init_api.vcxproj", "{E552C91A-E791-31E5-B827-D6D169DB08EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_connect_sensor", "02_connect_sensor\02_connect_sensor.vcxproj", "{E2493A08-64AD-361F-B626-58E7F9436B6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_live_image", "03_live_image\03_live_image.vcxproj", "{14A54CB6-2FB0-3189-9CF9-FDA80D2A8F41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_pil", "04_pil\04_pil.vcxproj", "{AF30F869-4BA9-3E21-A6DB-73DA98D2F744}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_point_cloud", "05_point_cloud\05_point_cloud.vcxproj", "{DB5A0720-4C61-3D1C-9656-21BC3DEBF1AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_zil", "06_zil\06_zil.vcxproj", "{83897CDB-A732-3E1B-A4AA-A33E1FF34C19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_roi", "07_roi\07_roi.vcxproj", "{FD1360ED-AB87-3A5C-B7C0-92CA6F4DF977}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_exposure_time", "08_exposure_time\08_exposure_time.vcxproj", "{FC646201-0FB2-3D8E-BC02-D4E82AFD17E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_multiexposure", "09_multiexposure\09_multiexposure.vcxproj", "{43287D32-62DF-3BC3-8C27-D3EEA1E81731}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_data_trigger", "10_data_trigger\10_data_trigger.vcxproj", "{835D5525-DDF6-31DE-A656-E46A2D4CD6FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_start_trigger", "11_start_trigger\11_start_trigger.vcxproj", "{4575E022-67AA-3731-85B7-B88D34BA45E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_parameter_set", "12_parameter_set\12_parameter_set.vcxproj", "{D1EE949C-81B8-3E5D-9F51-F2BB5EBF1B9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_metadata", "13_metadata\13_metadata.vcxproj", "{37B6BC09-A5CD-320C-AF5B-C2DB93947B91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC49C2D6-E173-46E6-8849-24FBCA80950A}
+	EndGlobalSection
+EndGlobal
